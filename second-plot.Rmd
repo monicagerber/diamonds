@@ -9,7 +9,7 @@ knitr::opts_chunk$set(echo = TRUE)
 library(ggplot2)
 ```
 
-Another diamonds plot. First one is over [here](index.Rmd).
+Another diamonds plot. First one is over [here](index).
 
 ```{r}
 diamonds |>
