@@ -21,3 +21,4 @@ diamonds |>
   )
 ```
 
+A second plot is over [here](second-plot.html).

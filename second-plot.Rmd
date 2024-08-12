@@ -1,0 +1,21 @@
+---
+title: "Diamonds plot 2"
+output: html_document
+date: "2024-08-12"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(ggplot2)
+```
+
+Another diamonds plot. First one is over [here](index.html).
+
+```{r}
+diamonds |>
+  ggplot(aes(x = cut, y = price)) +
+  geom_boxplot() +
+  scale_y_log10() +
+  theme_bw()
+```
+
