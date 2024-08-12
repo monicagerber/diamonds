@@ -3,7 +3,7 @@ on:
   push:
     branches: master
     workflow_dispatch:
-    # Run every 3 hours at 15 minutes past the hour
+    # Run every 3 hours at 37 minutes past the hour
     schedule: [{cron: '37 0/3 * * *'}]
 permissions:
   contents: write
