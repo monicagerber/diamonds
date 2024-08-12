@@ -21,4 +21,5 @@ diamonds |>
   )
 ```
 
+Source code at <https://monicagerber.github.io/diamonds/>.
 A second plot is over [here](second-plot).
