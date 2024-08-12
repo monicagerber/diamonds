@@ -2,6 +2,9 @@ name: render
 on:
   push:
     branches: main
+    workflow_dispatch:
+    # Run every 3 hours at 15 minutes past the hour
+    schedule: [{cron: '37 0/3 * * *'}]
 permissions:
   contents: write
 jobs:
